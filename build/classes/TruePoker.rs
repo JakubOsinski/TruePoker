@@ -1,3 +1,0 @@
-TruePoker
-Sortbyroll
-SortbyMODULEDINDEX
