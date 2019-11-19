@@ -4,15 +4,32 @@ import java.util.ArrayList;
 
 public class Player 
 {
-    
+    private String name;
+     ArrayList<String> ranksToGet = new ArrayList<String>();
     ArrayList<Card>  playerCards = new ArrayList<Card>();
      ArrayList<Card>  realCards = new ArrayList<Card>(); //5 cards used to represent player hand after the system finds out what the best ones are
-       public boolean[] hand = new boolean[10];
+       public  boolean[] hand = new boolean[10];
        
        private int handPower;
     
     public Player() {
         
+    }
+    
+    public void setRanksToGet(ArrayList<String> ranksToGet) 
+    {
+        this.ranksToGet = ranksToGet;
+    }
+    public  ArrayList<String> getRanksToGet() 
+    {
+        return ranksToGet;
+    } 
+    
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getName() {
+        return name;
     }
     
     

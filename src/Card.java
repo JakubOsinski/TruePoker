@@ -20,7 +20,7 @@ public static String []ranks = { "2", "3", "4","5", "6", "7", "8","9", "10", "Ja
 		suit = "";//getRandomSuit();
 		rank = "";//getRandomRank();
 		index = 0;//getCardIndex();
-                moduledIndex = 0;
+                moduledIndex = 0; 
 	}
 	
 	public Card(String suit, String rank, int index, int moduledIndex) 
